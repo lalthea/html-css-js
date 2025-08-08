@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lathea Personal Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Links you to my CSS file -->
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Hello, I'm Lathea</h1>
+            <p class="lead">I create and commission UI/UX for both app and website </p>
+            <div class="hero-divider"></div>
+            <p class="small">Web Developer & UI/UX Designer</p>
+        </div>
+    </section>
+    
+    <!--Introduce myself-->
+ <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="profile-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <div class="profile-img-container">
+                                    <img src="Pfp.png" alt="Profile Picture" class="profile-img">
+                                 </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="about-content">
+                                    <h3>Hello, I'm Lorenz Althea </h3>
+                                    <p>I'm a self-taught UI/UX and website developer. I specialize in designing mobile and website, but also building those to make a function projects.</p>
+                                    <p>My approach combines technical expertise with creative problem-solving to deliver solutions that not only meet requirements but exceed expectations. I believe in continuous learning and staying updated with the latest industry trends.</p>
+                                    <p>When I'm not coding, you'll probably won't find me outside as I enjoy crochet, trying out some new recipe, or even learning new hobbies at my home. </p>
+                                    
+                                    <h4>My Software Skills</h4>
+                                    <div class="software-grid">
+                                        <div class="software-card">
+                                            <i class="bi bi-filetype-html software-icon"></i>
+                                            <div class="software-name">HTML5</div>
+                                        </div>
+                                        <div class="software-card">
+                                            <i class="bi bi-filetype-css software-icon"></i>
+                                            <div class="software-name">CSS3</div>
+                                        </div>
+                                        <div class="software-card">
+                                            <i class="bi bi-filetype-js software-icon"></i>
+                                            <div class="software-name">JavaScript</div>
+                                        </div>
+                                        <div class="software-card">
+                                            <i class="bi bi-node-plus software-icon"></i>
+                                            <div class="software-name">Node.js</div>
+                                        </div>
+                                        <div class="software-card">
+                                            <div class="software-name">Figma</div>
+                                        </div>
+                                        <div class="software-card">
+                                            <i class="bi bi-git software-icon"></i>
+                                            <div class="software-name">Git</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row">
+                
+                <!-- Tangerine -->
+                <div class="col-md-4 animate delay-1">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img" style ="background-color: #FFF1CA;"><img src="Tangerine.png" alt="Tangerine" style ="width:230px;height:240px" class="center"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Tangerine</h3>
+                            <p class="portfolio-description">A budgetting and journaling app with a minimalist design and easy to navigate.</p>
+                            <button type="button" class="btn btn-portfolio" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animaco -->
+                <div class="col-md-4 animate delay-2">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><img src="Animaco_Website.png" alt="Animaco" style ="width:370px;height:240px" class="center"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Animaco Official Website</h3>
+                            <p class="portfolio-description">A website for the ANIMACO. org cyberpunk and futuristic designed.</p>
+                            <button type="button" class="btn btn-portfolio" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Making -->
+                <div class="col-md-4 animate delay-3">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><img src="commission_portfolio.png" alt="commission" style ="width:350px;height:240px" class="center"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Portfolio Making</h3>
+                            <p class="portfolio-description">Commission portfolio for a freelancer client that is a graphic designer. </p>
+                            <button type="button" class="btn btn-portfolio" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tangerine Project 1 -->
+    <div class="modal fade" id="project1Modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tangerine</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Project Overview</h5>
+                    <p class="mb-4">Tangerine is a budgetting and journaling app designed to help users manage there budget and improve mindfulness through guided sessions and breathing exercises. The interface uses soft colors, ample whitespace, and subtle animations to create a calming experience.</p>
+                    <h5 class="mt-4">Key Features</h5>
+                    <ul class="mb-4">
+                        <li>Customizable Category for user to see</li>
+                        <li>Visualization of chart how much they spent and save</li>
+                        <li>Progress tracking with minimalist charts</li>
+                        <li>Daily mindfulness reminders</li>
+                        <li>Sleep stories with ambient sounds</li>
+                    </ul>
+                    
+                    <h5>Softwares</h5>
+                    <div class="mb-3">
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">MongoDB</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="https://www.figma.com/design/XENpZmpTprzFKXwCHS6EBl/Draft--Concept-Ideas?node-id=0-1&t=TrCqfqFAgdYaxeXX-1" class="btn btn-outline-dark" target="_blank"> View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animaco Website Project 2 -->
+    <div class="modal fade" id="project2Modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Animco Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Project Overview</h5>
+                    <p class="mb-4">A website for the Animaco. Org contain where user could visit check for Animaco event, merch, and even what they are all about. </p>
+                    <h5 class="mt-4">Key Features</h5>
+                    <ul class="mb-4">
+                        <li>Mission and Vision of the Org</li>
+                        <li>A Shop containing merch for them to order</li>
+                        <li>Minimalist navigation and layout</li>
+                        <li>Announce future events linking to it's facebook page</li>
+                        <li>Showcase the members</li>
+                    </ul>
+                    
+                    <h5>Software</h5>
+                    <div class="mb-3">
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Google Form</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://www.figma.com/design/oEOVpHnb0SkXJonGoNDpn5/Animaco-Website?node-id=0-1&t=YeDk3WoEk1MiIiua-1" class="btn btn-outline-dark" target="_blank"> View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Making Project 3 -->
+    <div class="modal fade" id="project3Modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Portfolio Commission</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Project Overview</h5>
+                    <p class="mb-4">A Commission portfolio by the client name Rina who is a freelancer Graphic Designer.</p>
+                    
+                    <h5 class="mt-4">Key Features</h5>
+                    <ul class="mb-4">
+                        <li>Showcase the clients Brand and there skill</li>
+                        <li>Easy to navigate and layout</li>
+                        <li>Clients contact and information</li>
+                    </ul>
+                    
+                    <h5>Softwares</h5>
+                    <div class="mb-3">
+                        <span class="tech-badge">Figma</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://www.figma.com/design/8gh5ibPrkzYharvu25DWiA/Rina-s-Portfolio?node-id=0-1&t=wTgCLhL1ZXhs53Vs-1" class="btn btn-outline-dark" target="_blank"> View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Let's collab together to create something amazing</p>
+            <div class="social-icons">
+                <a href="https://github.com/lalthea"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/lorenz-althea-abacan-aa106b310/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/zarzar_alt"><i class="bi bi-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Lathea. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS (confuse where or how did they get this???) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Links you to the Javascript File -->
+    <script src="script.js"></script>
+</body>
+</html>
